@@ -9,7 +9,7 @@ public class EmpUtil {
         return ChatColor.translateAlternateColorCodes('&', message);
     }
     public static void logMessage(String message){
-        EasyEconomy.getPlugin(EasyEconomy.class).getServer().getConsoleSender().sendMessage("[MultiEnderchests] " +
+        EasyEconomy.getPlugin(EasyEconomy.class).getServer().getConsoleSender().sendMessage("[EasyEconomy] " +
                 getColored(message));
     }
 
