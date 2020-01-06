@@ -1,0 +1,21 @@
+name: EasyEconomy
+version: ${project.version}
+main: me.emperio.easyeconomy.EasyEconomy
+authors: [Emperio]
+description: A plugin that introduces a basic vault economy
+
+depend:
+  - Vault
+
+commands:
+  eco:
+    usage: /<command> <sub-command>
+    description: Economy Admin-Commands
+    aliases: [economy]
+  pay:
+    usage: /<command> <player> <amount>
+    description: Send money to another player
+  balance:
+    usage: /<command> [player]
+    description: Check the balance of your aaccount
+    aliases: [bal, money]

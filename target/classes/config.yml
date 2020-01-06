@@ -1,0 +1,20 @@
+# E A S Y . . . E C O N O M Y
+# Configuration
+
+# the name of the currency in use
+currency-name:
+  singular: "Dollar"
+  plural: "Dollars"
+  prefix: "$" # used for admin-commands, you would still be requried to put prefixes in lang.yml
+
+# the default balance for all new players
+default-balance: 2
+
+# the max balance a player's account can have
+# the max number allowed here is 2,147,000,000 [2 billion and 147 million]
+max-balance: 100000000
+
+# if checked true, a player could be able to buy items even if their balance doesn't have the sufficient funds ...
+# ... (therefore making the balance of a player negative)
+allow-negative-balances: false
+

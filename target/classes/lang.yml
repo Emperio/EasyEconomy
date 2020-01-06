@@ -1,0 +1,32 @@
+# LANGUAGE CONFIGURATION
+
+money-received: "&aYou received &c${amount}&a from &c{player}"
+money-sent: "&aSuccessfully sent &c${amount}&a to &c{player}"
+# output in the event that the target player's account would become full by sending funds to their account
+money-sent-but-player-account-got-full: "&aYou were only able to send &c${amount}&a as &c{player}'s &aaccount had reached max balance."
+# the output to the /bal command
+balance-message: "&a{player}'s Balance: &c${balance}"
+# output to a player when money is added to their account via /eco admin commands
+money-added-to-account: "&c${amount}&a was added to your account."
+
+# INCORRECT ARGS
+
+# the error output if incorrect arguments are passed to the /pay command
+incorrect-args-command-pay: "&cIncorrect Args. Correct Usage: &a/pay <player> <amount>"
+
+# ERRORS
+
+# the message if the player mentioned in a command has never joined the servere before
+player-not-played-before: "&cPlayer &a{player} &chas not joined the server before!"
+
+# if an amount is either not a number or too large (larger than an integer value)
+not-a-valid-integer: "&cThe amount specified is not a valid number!"
+
+# if a player does not have the sufficient funds to pay another player
+not-enough-money-to-pay: "&cYou do not have the sufficient funds!"
+
+# if the player mentioned in a command is not online / could not be found
+player-not-found: "&cThe player &a{player} &ccould not be found."
+
+no-permission: "&cYou do not have the required permission."
+
